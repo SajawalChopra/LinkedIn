@@ -11,14 +11,14 @@ driver.get(url)
 time.sleep(3)
 
 email_xpath = """//*[@id="session_key"]"""
-email_id = 'sajawalchopra448@gmail.com'
+email_id = 'your_email'
 find_email_element = driver.find_element_by_xpath(email_xpath)
 find_email_element.send_keys(email_id)
 
 time.sleep(3)
 
 password_xpath = """//*[@id="session_password"]"""
-password = '********'
+password = 'your_password'
 find_pass_element = driver.find_element_by_xpath(password_xpath)
 find_pass_element.send_keys(password)
 
